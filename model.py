@@ -9,7 +9,7 @@ from vit import ViT
 
 
 
-class ThoracicPathoModel(nn.Module):
+class ViTPathoModel(nn.Module):
     def __init__(self, vit_configs, res_block_configs):
         super().__init__()
         self.vit = ViT(**vit_configs)
